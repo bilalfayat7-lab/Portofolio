@@ -382,3 +382,94 @@ gap:30px;
 .rating-box h3{
     margin:0;
 }
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding:120px 20px 60px;
+    }
+
+    .hero-content{
+        width:100%;
+        max-width:700px;
+    }
+
+    .hero-video{
+        position:relative;
+        width:100%;
+        max-width:420px;
+        height:650px;
+
+        right:auto;
+        top:auto;
+        transform:none;
+
+        margin-top:40px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .stats-row{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .numbers{
+        grid-template-columns:1fr 1fr;
+        gap:20px;
+    }
+
+    .gallery img{
+        width:220px;
+        height:auto;
+    }
+
+    .menu{
+        gap:15px;
+        font-size:14px;
+    }
+
+}
+
+/* =========================
+   HP KECIL
+========================= */
+
+@media (max-width: 480px){
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+    }
+
+    .numbers{
+        grid-template-columns:1fr;
+    }
+
+}
