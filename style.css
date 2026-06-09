@@ -38,21 +38,26 @@ text-decoration:none;
 }
 
 .hero{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:120px 8%;
-background:
-linear-gradient(
-90deg,
-#111827,
-#0f1117
-);
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+
+    padding:120px 5% 80px;
+
+    background:
+    linear-gradient(
+    90deg,
+    #111827,
+    #0f1117
+    );
 }
 
 .hero-left{
-max-width:600px;
+    width:100%;
+    max-width:1400px;
 }
 
 .badge{
@@ -110,25 +115,7 @@ border-radius:12px;
 cursor:pointer;
 }
 
-.hero-right{
-display:flex;
-justify-content:center;
-align-items:center;
-}
 
-.phone{
-width:320px;
-padding:10px;
-border-radius:40px;
-background:#161b22;
-box-shadow:
-0 0 50px rgba(0,255,136,.15);
-}
-
-.phone img{
-width:100%;
-border-radius:30px;
-}
 
 .gallery-section{
 padding:80px 8%;
@@ -255,17 +242,22 @@ gap:30px;
 }
 
 .hero-video{
-    position:absolute;
-    top:0;
-    right:0;
-    width:60%;
-    height:100%;
+    width:100%;
+    max-width:1400px;
+
+    margin-top:50px;
+
+    border-radius:24px;
+    overflow:hidden;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.35);
 }
 
 .hero-video video{
     width:100%;
-    height:100%;
-    object-fit:cover;
+    height:auto;
+    display:block;
 }
 
 
@@ -384,6 +376,7 @@ gap:30px;
 }
 
 
+
 /* =========================
    TABLET
 ========================= */
@@ -401,18 +394,7 @@ gap:30px;
         max-width:700px;
     }
 
-    .hero-video{
-        position:relative;
-        width:100%;
-        max-width:420px;
-        height:650px;
-
-        right:auto;
-        top:auto;
-        transform:none;
-
-        margin-top:40px;
-    }
+ 
 
 }
 
