@@ -119,12 +119,13 @@ cursor:pointer;
 
 .gallery-section{
 padding:80px 8%;
-background:white;
+background:#111827;
 color:black;
 }
 
 .gallery-section h2{
 margin-bottom:30px;
+color:white;
 }
 
 .gallery{
