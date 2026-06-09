@@ -38,7 +38,7 @@ text-decoration:none;
 }
 
 .hero{
-    min-height:100vh;
+   min-height:auto;
 
     display:flex;
     flex-direction:column;
@@ -227,7 +227,7 @@ gap:30px;
 
 .hero{
     position:relative;
-    min-height:100vh;
+    min-height:auto;
     overflow:hidden;
     display:flex;
     align-items:center;
